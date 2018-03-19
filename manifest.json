@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "TabCap",
+  "description": "Closes a new tab if it's URL is already open and focuses the existing one.",
+  "version": "1.0",
+  "background": {
+    "scripts": [
+      "handler.js"
+    ]
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
